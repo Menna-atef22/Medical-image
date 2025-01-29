@@ -48,37 +48,37 @@ class DICOMViewer(QMainWindow):
         toolbar = self.addToolBar("Main Toolbar")
 
         # Open File Action
-        open_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\upload-file.png"),"Open DICOM", self)
+        open_action = QAction(QIcon(r"C:\Users\menna\Downloads\upload file.png"),"Open DICOM", self)
         open_action.triggered.connect(self.open_dicom_file)
         toolbar.addAction(open_action)
 
         # Open Folder Action
-        open_folder_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\folder.png"),"Open DICOM Folder", self)
+        open_folder_action = QAction(QIcon(r"C:\Users\menna\Downloads\upload folder.png"),"Open DICOM Folder", self)
         open_folder_action.triggered.connect(self.open_dicom_folder)
         toolbar.addAction(open_folder_action)
 
         # Show Attributes Action
-        attributes_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\ui.png"),"Show Attributes", self)
+        attributes_action = QAction(QIcon(r"C:\Users\menna\Downloads\Attributes.png"),"Show Attributes", self)
         attributes_action.triggered.connect(self.show_attributes_window)
         toolbar.addAction(attributes_action)
 
         # Show Details Action
-        details_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\list.png"),"Show Details", self)
+        details_action = QAction(QIcon(r"C:\Users\menna\Downloads\detail.png"),"Show Details", self)
         details_action.triggered.connect(self.show_details_window)
         toolbar.addAction(details_action)
 
         # Play Video Action
-        play_video_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\play.png"),"Play Video", self)
+        play_video_action = QAction(QIcon(r"C:\Users\menna\Downloads\video play.png"),"Play Video", self)
         play_video_action.triggered.connect(self.toggle_video_mode)
         toolbar.addAction(play_video_action)
 
         # Anonymize Action
-        anonymize_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\anonymous.png"),"Anonymize DICOM", self)
+        anonymize_action = QAction(QIcon(r"C:\Users\menna\Downloads\anonymizati.png"),"Anonymize DICOM", self)
         anonymize_action.triggered.connect(self.anonymize_dicom)
         toolbar.addAction(anonymize_action)
 
         # Toggle Tiles Action
-        self.toggle_tiles_action = QAction(QIcon(r"F:\Projects\DicomViewer\pythonProject\Icons\grid.png"),"Show Tiles", self)
+        self.toggle_tiles_action = QAction(QIcon(r"C:\Users\menna\Downloads\Tiles.png"),"Show Tiles", self)
         self.toggle_tiles_action.setEnabled(False)  # Initially disabled
         self.toggle_tiles_action.triggered.connect(self.display_folder_as_tiles)
         toolbar.addAction(self.toggle_tiles_action)
