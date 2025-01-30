@@ -93,9 +93,13 @@ python ImageQ.py
 - **Use "Calculate SNR"** to measure the Signal-to-Noise Ratio (SNR) of the image.
 - **Use "Calculate CNR"** to measure the Contrast-to-Noise Ratio (CNR) of the image.
 
-
+    #Output1: Applying Noise,Output2: Applying Filter
     ![Output1: Applying Noise,Output2: Applying Filter](images/filter&noise.png)  <!-- Add the image here -->
+   ---
+    #Output1: Contrast Enhancement,Output2: 3x Zoom
     ![Output1: Contrast Enhancement,Output2: 3x Zoom](images/contrast&zoomx3.png)  <!-- Add the image here -->
+  ---
+    #Histogram of Input #pixels & Intensity
     ![Histogram of Input #pixels & Intensity](images/Histogram.png)  <!-- Add the image here -->
   
 ---
