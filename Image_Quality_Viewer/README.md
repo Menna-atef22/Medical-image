@@ -152,3 +152,9 @@ python ImageQ.py
   - **SNR Calculation**: Calculates the **Signal-to-Noise Ratio** (SNR) of the image.
   - **CNR Calculation**: Calculates the **Contrast-to-Noise Ratio** (CNR) of the image.
   - **Show Histogram**: Displays the **histogram** showing the intensity distribution of the image.
+
+### Acknowledgments
+
+A special thanks to Dr. Tamer Basha, whose guidance and expertise have been invaluable in the development of this project. We deeply appreciate your support and insightful feedback, which have significantly enhanced the application's design and functionality.
+
+Additionally, thanks to the open-source community for providing tools and libraries that made this project possible.
