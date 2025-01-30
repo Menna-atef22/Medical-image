@@ -87,10 +87,17 @@ python ImageQ.py
 - **Select filter type** (Gaussian/Bilateral/Non-Local Means/Low-Pass/High-Pass) from the filter options.
 - **Click "Add Filter"** to apply the selected filter to the image.
 
+
 ### 5.Analysis:
 - **Click "Show Histogram"** to view the intensity distribution of the current image.
 - **Use "Calculate SNR"** to measure the Signal-to-Noise Ratio (SNR) of the image.
 - **Use "Calculate CNR"** to measure the Contrast-to-Noise Ratio (CNR) of the image.
+
+
+    ![Output1: Applying Noise,Output2: Applying Filter](images/filter & noise.png)  <!-- Add the image here -->
+    ![Output1: Contrast Enhancement,Output2: 3x Zoom](images/contrast & zoom x3.png)  <!-- Add the image here -->
+    ![Histogram of Input #pixels & Intensity](images/Histogram.png)  <!-- Add the image here -->
+  
 ---
  ### Quality Metrics
 
@@ -110,7 +117,7 @@ python ImageQ.py
 
 ![CNR Calculation Image](images/CNR.png)  <!-- Add the image here -->
 
-
+---
 ### Interface Components
 
 #### 1. **Main Display Area**:
