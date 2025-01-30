@@ -59,13 +59,14 @@ pip install PyQt5
 pip install opencv-python
 pip install numpy
 pip install matplotlib
----
+ ```
 ## Usage
 
 ### Run the Application:
 To run the application, use the following command:
 
 ```bash
-python MultiViewBoard.py
+python ImageQ.py
+```
 
 
