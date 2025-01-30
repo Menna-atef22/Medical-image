@@ -55,6 +55,7 @@ The tool supports advanced operations such as contrast enhancement, noise simula
 ### SNR Formula  
 The application calculates SNR using the formula:  
 \[
+
 SNR = mean(signal) / std(noise)
 
 \]  
@@ -75,6 +76,7 @@ Where:
 **Example**:  
 - If the mean signal intensity is `100` and the standard deviation of noise is `10`, the SNR is calculated as:  
   \[
+  
   SNR = 100 / 10 =10
 
   \]  
