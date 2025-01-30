@@ -91,5 +91,24 @@ python ImageQ.py
 - **Click "Show Histogram"** to view the intensity distribution of the current image.
 - **Use "Calculate SNR"** to measure the Signal-to-Noise Ratio (SNR) of the image.
 - **Use "Calculate CNR"** to measure the Contrast-to-Noise Ratio (CNR) of the image.
+---
+ ### Quality Metrics
+
+#### 1. SNR Calculation:
+1. **Select ROIs** (Regions of Interest) for the signal and noise regions.
+2. The application calculates the **Signal-to-Noise Ratio (SNR)** using the formula:
+   - `SNR = mean(signal) / std(noise)`
+3. This calculation provides a measure of the signal strength relative to the background noise.
+
+![SNR Calculation Image](path_to_snr_image.jpg)  <!-- Add the image here -->
+
+#### 2. CNR Calculation:
+1. **Select ROIs** for two regions and one noise region.
+2. The **Contrast-to-Noise Ratio (CNR)** is calculated using the formula:
+   - `CNR = |mean(region1) - mean(region2)| / std(noise)`
+3. CNR helps assess the difference in contrast between two regions relative to the noise in the image.
+
+![CNR Calculation Image](images/CNR.png)  <!-- Add the image here -->
+
 
 
