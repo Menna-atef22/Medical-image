@@ -9,7 +9,7 @@ With an easy-to-use interface, users can load, process, and compare images side 
 ---
 
 ## Features
----
+
 ### Image Loading and Display
 - **Support for common image formats**: PNG, JPG, BMP
 - **Multiple view panels**:  
