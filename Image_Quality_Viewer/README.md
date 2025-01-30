@@ -111,4 +111,30 @@ python ImageQ.py
 ![CNR Calculation Image](images/CNR.png)  <!-- Add the image here -->
 
 
+### Interface Components
 
+#### 1. **Main Display Area**:
+- The application features **three image panels**:
+  - **Input**: Displays the original image that will be modified.
+  - **Output1**: Displays the image after applying the operations (e.g., contrast enhancement).
+  - **Output2**: Displays another version of the image after applying different modifications or effects.
+
+  You can choose which of these panels will display the original or modified image.
+
+#### 2. **Control Panel**:
+- The application has a control panel with several tools that allow you to apply various operations to the image:
+  - **Dropdowns**: To select the type of operation you want to apply (e.g., contrast enhancement or noise addition).
+  - **Brightness and Contrast Adjustment Sliders**: Controls for adjusting the brightness and contrast of the image.
+  - **Zoom Control**: Lets you zoom in or out on the image, with options to select the interpolation method (e.g., **Nearest-Neighbor**, **Linear**, **Bilinear**, **Cubic**).
+
+#### 3. **Noise and Filter Type Selection**:
+- This section lets you select the type of noise to add to the image:
+  - **Noise Types**: Gaussian, Salt and Pepper, Speckle.
+- You can also select the filter to apply to the image after adding noise:
+  - **Filters**: Gaussian, Bilateral, Non-Local Means, Low-Pass, High-Pass.
+
+#### 4. **Analysis Tools**:
+- The application includes analysis tools for quality metrics:
+  - **SNR Calculation**: Calculates the **Signal-to-Noise Ratio** (SNR) of the image.
+  - **CNR Calculation**: Calculates the **Contrast-to-Noise Ratio** (CNR) of the image.
+  - **Show Histogram**: Displays the **histogram** showing the intensity distribution of the image.
