@@ -50,10 +50,22 @@ With an easy-to-use interface, users can load, process, and compare images side 
 - **SNR (Signal-to-Noise Ratio) Calculation**: Measure the ratio of useful signal to noise.
 - **CNR (Contrast-to-Noise Ratio) Calculation**: Evaluate the contrast to noise ratio for image quality assessment.
 
-## Installation
+## Required Libraries
 
-To install the application, simply clone this repository and run the following command to install the necessary dependencies:
+To run the application, install the following libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install PyQt5
+pip install opencv-python
+pip install numpy
+pip install matplotlib
+---
+## Usage
+
+### Run the Application:
+To run the application, use the following command:
+
+```bash
+python MultiViewBoard.py
+
 
