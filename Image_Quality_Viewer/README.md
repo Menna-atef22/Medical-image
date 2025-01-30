@@ -100,7 +100,7 @@ python ImageQ.py
    - `SNR = mean(signal) / std(noise)`
 3. This calculation provides a measure of the signal strength relative to the background noise.
 
-![SNR Calculation Image](path_to_snr_image.jpg)  <!-- Add the image here -->
+![SNR Calculation Image](images/SNR.png)  <!-- Add the image here -->
 
 #### 2. CNR Calculation:
 1. **Select ROIs** for two regions and one noise region.
