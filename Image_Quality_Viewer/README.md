@@ -62,11 +62,37 @@ pip install matplotlib
  ```
 ## Usage
 
-### Run the Application:
-1.To run the application, use the following command:
+###1. Run the Application:
+To run the application, use the following command:
 
 ```bash
 python ImageQ.py
 ```
 
+###2.Basic Operations:
+
+1. **Click "Load Image"** to open an image file from your system.
+2. **Select the source image** (Input/Output1/Output2) from the dropdown menu.
+3. **Choose the target output window** (Output1/Output2) where the processed image will be displayed.
+4. **Apply desired operations** using the control panel to modify the image.
+
+###3.Enhancement Operations:
+
+1. **Select enhancement type** (Histogram Equalization/CLAHE/Gamma Correction) from the available options.
+2. **Click "Enhance Contrast"** to apply the selected enhancement.
+3. **Adjust brightness/contrast** using the sliders to modify the image's brightness and contrast.
+4. **Click "Apply B/C"** to apply the changes made to brightness and contrast.
+
+###4.Noise and Filtering:
+
+1. **Select noise type** (Gaussian/Salt and Pepper/Speckle) to add noise to the image.
+2. **Click "Add Noise"** to apply the selected noise type.
+3. **Select filter type** (Gaussian/Bilateral/Non-Local Means/Low-Pass/High-Pass) from the filter options.
+4. **Click "Add Filter"** to apply the selected filter to the image.
+
+###5.Analysis:
+
+1. **Click "Show Histogram"** to view the intensity distribution of the current image.
+2. **Use "Calculate SNR"** to measure the Signal-to-Noise Ratio (SNR) of the image.
+3. **Use "Calculate CNR"** to measure the Contrast-to-Noise Ratio (CNR) of the image.
 
