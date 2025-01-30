@@ -63,7 +63,7 @@ pip install matplotlib
 ## Usage
 
 ### Run the Application:
-To run the application, use the following command:
+1.To run the application, use the following command:
 
 ```bash
 python ImageQ.py
