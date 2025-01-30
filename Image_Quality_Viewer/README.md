@@ -50,11 +50,11 @@ With an easy-to-use interface, users can load, process, and compare images side 
 - **SNR (Signal-to-Noise Ratio) Calculation**: Measure the ratio of useful signal to noise.
 - **CNR (Contrast-to-Noise Ratio) Calculation**: Evaluate the contrast to noise ratio for image quality assessment.
 
-##CNR
-  ![Enhancement Operations Image](Image_Quality_Viewer/images/CNR.png)
+## CNR
+  ![Enhancement Operations Image](CNR.png)
 
-##SNR
-  ![Enhancement Operations Image](Image_Quality_Viewer/images/SNR.png) 
+## SNR
+  ![Enhancement Operations Image](SNR.png) 
 
 ## Required Libraries
 
