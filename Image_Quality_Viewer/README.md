@@ -55,7 +55,8 @@ The tool supports advanced operations such as contrast enhancement, noise simula
 ### SNR Formula  
 The application calculates SNR using the formula:  
 \[
-\text{SNR} = \frac{\text{mean(signal)}}{\text{std(noise)}}
+SNR = mean(signal) / std(noise)
+
 \]  
 
 Where:  
@@ -74,11 +75,43 @@ Where:
 **Example**:  
 - If the mean signal intensity is `100` and the standard deviation of noise is `10`, the SNR is calculated as:  
   \[
-  \text{SNR} = \frac{100}{10} = 10
+  SNR = 100 / 10 =10
+
   \]  
 
 ---
 
+### CNR (Contrast-to-Noise Ratio)
+
+**CNR** (Contrast-to-Noise Ratio) is a metric used to assess the contrast between two regions in an image while considering the level of noise. It is primarily used in medical and scientific image analysis to determine the clarity of details within the image. CNR helps in identifying the ability to distinguish between high-contrast areas and those containing noise.
+
+### CNR Formula  
+The application calculates **CNR (Contrast-to-Noise Ratio)** using the formula:  
+\[
+CNR = \frac{|mean(region1) - mean(region2)|}{std(noise)}
+\]
+
+Where:  
+- `mean(region1)` is the average intensity in the first selected region (e.g., a region containing an object of interest).  
+- `mean(region2)` is the average intensity in the second selected region (e.g., a background or comparison region).  
+- `std(noise)` is the standard deviation of pixel intensities in the noise region.  
+
+### How to Calculate CNR in the Application:  
+1. Load an image using the **"Load Image"** button.  
+2. Select **ROIs (Regions of Interest)** for the two regions of interest and the noise area:  
+   - Use the cursor to draw rectangles around the regions you want to analyze.  
+   - Assign the first region (e.g., an area containing an object of interest).  
+   - Assign the second region (e.g., a background or comparison region).  
+   - Assign the noise region (e.g., an area without significant features).  
+3. Click **"Calculate CNR"** in the control panel.  
+4. The CNR value will be displayed in the analysis panel or console output.  
+
+**Example**:  
+- If the mean intensity of region 1 is `120`, the mean intensity of region 2 is `80`, and the standard deviation of noise is `15`, the CNR is calculated as:  
+  \[
+  CNR = \frac{|120 - 80|}{15} = \frac{40}{15} \approx 2.67
+  \]
+---
 ## Screenshots 📸  
 
 ### Output 1: Applying Noise | Output 2: Applying Filter  
