@@ -95,7 +95,7 @@ python ImageQ.py
 
 
     ![Output1: Applying Noise,Output2: Applying Filter](images/filter&noise.png)  <!-- Add the image here -->
-    ![Output1: Contrast Enhancement,Output2: 3x Zoom](images/contrast&zoom x3.png)  <!-- Add the image here -->
+    ![Output1: Contrast Enhancement,Output2: 3x Zoom](images/contrast&zoomx3.png)  <!-- Add the image here -->
     ![Histogram of Input #pixels & Intensity](images/Histogram.png)  <!-- Add the image here -->
   
 ---
