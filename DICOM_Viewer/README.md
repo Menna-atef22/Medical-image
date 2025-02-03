@@ -2,7 +2,7 @@
 ## Overview
 
 DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, analyzing, and anonymizing DICOM files. It supports various DICOM formats, offers different image display modes, enables metadata exploration, and includes an anonymization feature. The application is designed to provide an intuitive user interface for healthcare professionals, researchers, or anyone working with medical imaging data.
---
+---
 ## Key Features
 
 1. **Comprehensive File Support**  
@@ -25,7 +25,7 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
    - **Toolbar**: Contains easy-to-use buttons for opening files, exploring tags, playing videos, toggling between tile modes, and anonymizing data.  
    - **Tile & Scroll Navigation**: Seamlessly navigate through multiple slices or images in grid or scroll views, offering a convenient way to view large datasets or 3D volumes.
 
---
+---
 ## Requirements
 - **Python 3.6 or later**
 - **Libraries:**
