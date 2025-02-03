@@ -96,6 +96,15 @@ python dicom_viewer.py
 ---
 # videos
 
+## Folder Structure
+```plaintext
+📂 DICOM_Viewer
+├── 📂 src
+│   ├── dicom_viewer.py       # Entry point of the application
+├── 📂 Icons          # Icons, styles, and other assets
+├── 📂 data    # The data shown in screenshots
+└── README.md         # This file
+
 
 
 ## Acknowledgments
