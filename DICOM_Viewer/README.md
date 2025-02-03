@@ -26,6 +26,54 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
    - **Tile & Scroll Navigation**: Seamlessly navigate through multiple slices or images in grid or scroll views, offering a convenient way to view large datasets or 3D volumes.
 
 ---
+### Setup
+Install dependencies using pip:
+```bash
+pip install PyQt5 pydicom matplotlib numpy
+```
+
+## Launch the Application
+Run the following command in the terminal:
+```bash
+python main.py
+```
+
+## How to Use
+
+### Opening Files
+#### Open a Single DICOM File:
+1. Click the **"Open DICOM"** button in the toolbar.
+2. Select a DICOM file (.dcm) from your system.
+
+#### Open a DICOM Folder:
+1. Click the **"Open DICOM Folder"** button in the toolbar.
+2. Select a folder containing DICOM files.
+
+### Viewing Modes
+#### Single Slice View:
+- Displays one slice at a time for 2D images.
+
+#### Video Mode:
+- If the file contains multiple frames (M2D), click **"Play Video"** to toggle video playback.
+
+#### Tile View:
+- For 3D or multi-slice datasets, click **"Show Tiles"** to view all slices as tiles.
+
+### Metadata Exploration
+- Click **"Show Attributes"** to view all DICOM tags.
+- Click **"Show Details"** to explore main DICOM elements (e.g., Patient, Study, etc.).
+- Use the **search bar** in the attributes window to find specific tags.
+
+### Anonymization
+1. Open a DICOM file or folder.
+2. Click the **"Anonymize DICOM"** button.
+3. Enter a prefix when prompted. This prefix will be used to generate anonymized values for sensitive tags.
+4. The anonymized file will be saved, overwriting the original.
+
+### Toggle Views
+- Use the **"Show Tiles"** button to switch between tile and single-slice views
+
+---
 # Screenshots
 
 ## DICOM_Attributes 
@@ -47,23 +95,6 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
 ---
 # videos
 
-![3D](video/3Da.mp4)  
 
-[![3D](https://drive.google.com/uc?export=view&id=1OLehWYxYIHhvTJcSrrmie_x2RxWxgfmN)](https://drive.google.com/file/d/1Kx5ZlWVpDM42MHVJYcEtOCEH-I3wHCmY/view)
 
----
-### Requirements
 
-To run the DICOM Viewer, you need the following:
-
-- **Python 3.6 or later**
-- PyQt5
-- pydicom
-- matplotlib
-- numpy
-
-You can install the necessary dependencies using pip:
-
-```bash
-pip install pydicom PyQt5 matplotlib numpy
-```
