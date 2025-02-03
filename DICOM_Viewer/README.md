@@ -49,6 +49,7 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
 
 ![3D](video/3Da.mp4)  
 
+[![3D](https://drive.google.com/thumbnail?id=1Kx5ZlWVpDM42MHVJYcEtOCEH-I3wHCmY)](https://drive.google.com/file/d/1Kx5ZlWVpDM42MHVJYcEtOCEH-I3wHCmY/view)
 
 ---
 ### Requirements
