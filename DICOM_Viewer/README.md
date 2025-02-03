@@ -35,7 +35,7 @@ pip install PyQt5 pydicom matplotlib numpy
 ## Launch the Application
 Run the following command in the terminal:
 ```bash
-python main.py
+python dicom_viewer.py
 ```
 
 ## How to Use
