@@ -27,7 +27,7 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
 
 ##DICOM_Attributes 
 
-![DICOM_Attributes](Imades/DICOM_Attributes.png)  <!-- Add the image here -->
+![DICOM_Attributes](Images/DICOM_Attributes.png)  <!-- Add the image here -->
 
 ---
 ### Requirements
