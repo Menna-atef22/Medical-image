@@ -26,7 +26,7 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
    - **Tile & Scroll Navigation**: Seamlessly navigate through multiple slices or images in grid or scroll views, offering a convenient way to view large datasets or 3D volumes.
 
 ---
-### Screenshots
+# Screenshots
 
 ## DICOM_Attributes 
 
@@ -45,8 +45,9 @@ DICOM Viewer is a desktop application built using Python and PyQt5 for viewing, 
 ![DICOM_Attributes](Images/anonymization.png)  
 
 ---
-### videos
+# videos
 
+![DICOM_Attributes](video/M2D.mp4)  
 
 
 ---
