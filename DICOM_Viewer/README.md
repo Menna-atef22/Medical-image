@@ -104,7 +104,7 @@ python dicom_viewer.py
 ├── 📂 Icons          # Icons, styles, and other assets
 ├── 📂 data    # The data shown in screenshots
 └── README.md         # This file
-
+```
 
 
 ## Acknowledgments
