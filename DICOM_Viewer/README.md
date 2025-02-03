@@ -92,17 +92,14 @@ python dicom_viewer.py
 
 ![DICOM_Attributes](Images/Toggle_Tiles.png)  
 
-## DICOM_Details
-
-![DICOM_Attributes](Images/DICOM_Details.png)  
-
-## Anonymization
-
-![DICOM_Attributes](Images/anonymization.png)  
 
 ---
 # videos
 
 
 
+## Acknowledgments
+Special thanks to **Dr. Tamer Basha**, whose guidance and expertise have been invaluable in the development of this project. We deeply appreciate your support and insightful feedback, which have significantly enhanced the application's design and functionality.
+
+Additionally, thanks to the **open-source community** for providing tools and libraries that made this project possible.
 
