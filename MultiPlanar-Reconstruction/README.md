@@ -16,7 +16,7 @@ The **Multi-Planar Reconstruction (MPR) Viewer** is a powerful desktop applicati
 
 ---
 
-## Features
+# Features
 
 ###  Multi-Planar Viewports
 - **Simultaneous Viewports:** Displays **axial, coronal, and sagittal** slices of a 3D volume.
@@ -47,7 +47,7 @@ The **Multi-Planar Reconstruction (MPR) Viewer** is a powerful desktop applicati
 
 ---
 
-##  Installation
+#  Installation
 
 Ensure you have **Python 3.7+** installed, then run the following command to install the required dependencies:
 
@@ -55,7 +55,7 @@ Ensure you have **Python 3.7+** installed, then run the following command to ins
 pip install PyQt5 VTK pydicom
 ```
 
-##  Usage
+#  Usage
 
 1. **Upload Images:** Load **DICOM/MHD** files using the toolbar.
 2. **Navigate Slices:** Scroll through slices and observe their positions across all views.
