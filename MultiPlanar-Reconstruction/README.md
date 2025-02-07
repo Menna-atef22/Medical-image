@@ -36,7 +36,7 @@ The **Multi-Planar Reconstruction (MPR) Viewer** is a powerful desktop applicati
 ###  Point Localization
 - **3D Volume Point Selection:** Click on a point in any view to see its corresponding **location in all perspectives**.
 
-### 🎛️ Layout & Controls
+###  Layout & Controls
 - **Four Panels:**
   -  **Axial View**
   -  **Coronal View**
@@ -79,7 +79,7 @@ MultiPlanar-Reconstruction
 ```
 
 
-## 🎖 Acknowledgments
+##  Acknowledgments
 
 We extend our heartfelt gratitude to **Dr. Tamer Basha** for his invaluable guidance and expertise throughout the development of this project. His insightful feedback has significantly contributed to refining both the functionality and design of the application.
 
