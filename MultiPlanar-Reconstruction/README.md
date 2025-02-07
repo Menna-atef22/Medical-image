@@ -6,11 +6,13 @@ The **Multi-Planar Reconstruction (MPR) Viewer** is a powerful desktop applicati
 
 
 
-| **Respective Slices in each view** | **Zoom, Rotate, Contrast** |
-|------------------------------------|----------------------------|
-| ![MPR Viewer - Slices](images/1.png) | ![MPR Viewer - Zoom](images/2.png) |
+| **Respective Slices in each view** | 
+|------------------------------------|
+| ![MPR Viewer - Slices](images/1.png) | 
 
-
+|**Zoom, Rotate, Contrast** |
+|----------------------------|
+|![MPR Viewer - Zoom](images/2.png) |
 
 ---
 
