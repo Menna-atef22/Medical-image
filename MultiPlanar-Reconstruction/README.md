@@ -61,11 +61,11 @@ pip install PyQt5 VTK pydicom
 
 ## 📂 Folder Structure
 
-📂 MultiPlanar-Reconstruction
-├── MPR.py          # Entry point of the application
-├── 📂 Data         # Sample data for testing
-├── 📂 Icons        # UI icons and assets
-└── README.md       # Documentation
+ MultiPlanar-Reconstruction ├── MPR.py # Entry point of the application ├── 📂 Data # Sample data for testing ├── 📂 Icons # UI icons and assets └── README.md # Documentation
+
+Copy
+Edit
+
 
 ## 🎖️ Acknowledgments
 
