@@ -62,22 +62,22 @@ pip install VTK
  ```
 ## Usage
 
- 1.Run the Application:
+ # Run the Application:
 To run the application, use the following command:
 
 ```bash
 python MPR.py
 ```
 
-2. **Upload Images:** Load **DICOM/MHD** files using the toolbar.
-3. **Navigate Slices:** Scroll through slices and observe their positions across all views.
-4. **Manipulate Images:**
-   -  **Pan:** `Shift + Hold and Drag`
-   -  **Zoom:** Scroll to zoom in/out.
-   -  **Rotate:** `CTRL + Hold and Rotate`
-   -  **Brightness/Contrast:** `Hold and Scroll` to adjust.
-5. **Point Localization:** Click a point in any view to see its position in the **3D model**.
-6. **Reset Views:** Click the **reset button** to restore the default layout.
+1. **Upload Images:** Load **DICOM/MHD** files using the toolbar.
+2. **Navigate Slices:** Scroll through slices and observe their positions across all views.
+3. **Manipulate Images:**
+   - 🖱️ **Pan:** `Shift + Hold and Drag`
+   - 🔍 **Zoom:** Scroll to zoom in/out.
+   - 🔄 **Rotate:** `CTRL + Hold and Rotate`
+   - ☀️ **Brightness/Contrast:** `Hold and Scroll` to adjust.
+4. **Point Localization:** Click a point in any view to see its position in the **3D model**.
+5. **Reset Views:** Click the **reset button** to restore the default layout.
    
 ---
 ## 📂 Folder Structure
