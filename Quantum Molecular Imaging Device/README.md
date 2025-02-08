@@ -7,7 +7,7 @@ By challenging conventional principles, we open new doors to innovation in medic
 
 
 ## 🎥 Concept Video  
-[![Quantum Molecular Imaging Device](Thumbnail.png)](https://drive.google.com/file/d/1oYu1PGAdggymaAwpJZBoWHEODyX_A9mC/view?usp=sharing)
+[![Quantum Molecular Imaging Device](Thumnail.png)](https://drive.google.com/file/d/1oYu1PGAdggymaAwpJZBoWHEODyX_A9mC/view?usp=sharing)
 
 
 
