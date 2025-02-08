@@ -62,7 +62,6 @@ pip install VTK
  ```
 ## Usage
 
- # Run the Application:
 To run the application, use the following command:
 
 ```bash
