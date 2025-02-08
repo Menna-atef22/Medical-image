@@ -96,6 +96,8 @@ python dicom_viewer.py
 ---
 # videos
 
+[![Quantum Molecular Imaging Device](Thumbnail.png)](https://drive.google.com/file/d/1Y8FHHkb16tyYth9BoHiIQ6izWYsNtv42/view?usp=drive_link)
+
 ## Folder Structure
 ```plaintext
 📂 DICOM_Viewer
