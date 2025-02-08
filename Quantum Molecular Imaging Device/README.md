@@ -6,7 +6,7 @@ Science thrives on pushing boundaries. This project explores the idea:
 By challenging conventional principles, we open new doors to innovation in medical imaging.
 
 ## 🎥 Concept Video  
-[![Quantum Molecular Imaging Device](Thumbnail.png)](QMID.mp4)  
+[![Quantum Molecular Imaging Device](Thumnail.png)](QMID.mp4)  
 
 ##  Law Broken: Quantum Decoherence  
 **Decoherence Principle** states that a quantum system can exist in multiple states simultaneously (|0⟩, |1⟩, or a superposition). However, quantum decoherence forces these states to collapse into classical ones, limiting practical applications.  
