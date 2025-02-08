@@ -83,8 +83,7 @@ python MPR.py
 
 ```bash
 MultiPlanar-Reconstruction
-├── 📂 src
-│   ├── MPR.py       # Entry point of the application
+├── MPR.py       # Entry point of the application
 ├── 📂 data_example   # a sample data for testing
 ├── 📂 Icons          # Icons, styles, and other assets
 └── README.md         # This file
