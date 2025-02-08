@@ -5,8 +5,9 @@ Science thrives on pushing boundaries. This project explores the idea:
 **Break a fundamental law to inspire an imaging breakthrough.**  
 By challenging conventional principles, we open new doors to innovation in medical imaging.
 
+
 ## 🎥 Concept Video  
-[![Quantum Molecular Imaging Device](Thumnail.png)]((https://drive.google.com/file/d/1oYu1PGAdggymaAwpJZBoWHEODyX_A9mC/view?usp=sharing))  
+[![Quantum Molecular Imaging Device](Thumbnail.png)](https://drive.google.com/file/d/1oYu1PGAdggymaAwpJZBoWHEODyX_A9mC/view?usp=sharing)
 
 
 
